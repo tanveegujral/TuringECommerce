@@ -1,0 +1,51 @@
+* {
+	font-size: 14px;
+}
+.breadcrumb {
+	background-color: inherit;
+}
+.breadcrumb-item {
+	font-size: 14px;
+	a {
+		color: #000;
+	}
+}
+
+.breadcrumb-item.active {
+	.active {
+		font-weight: bold;
+	}
+}
+
+.categoryHeader {
+	vertical-align: text-top;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.productImage {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.product-discountedPrice {
+	font-size: 14px;
+	font-weight: 500;
+	color: #282c3f;
+}
+
+.product-strike {
+	text-decoration: line-through;
+	color: #7e818c;
+	font-weight: 400;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.product-discountPercentage {
+	color: #ff905a;
+	font-weight: 400;
+	font-size: 12px;
+	margin-left: 5px;
+}
